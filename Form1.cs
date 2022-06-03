@@ -25,6 +25,9 @@ namespace Tictactoe
             player = 2;
             turns = 0;
             A01.Text = A02.Text = A03.Text = A11.Text = A12.Text = A13.Text = A21.Text = A22.Text = A23.Text = "";
+            PlayerX.Text = "X: " + s1;
+            PlayerO.Text = "O: " + s2;
+            Draw.Text = "Draws: " + sd;
         }
 
         private void TictactoeClick(object sender, EventArgs e)
@@ -50,6 +53,23 @@ namespace Tictactoe
                     MessageBox.Show("Draw!");
                     sd++;
                     StartGame();
+                }
+
+                if (CheckWinner()==true)
+                {
+                    if(button.Text=="X")
+                    {
+                        MessageBox.Show("Player 1 Won!");
+                        s1++;
+                        StartGame();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Player 2 Won!");
+                        s2++;
+                        StartGame();
+                    }
                 }
             }
         }
