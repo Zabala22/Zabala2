@@ -20,6 +20,13 @@ namespace Tictactoe
             Draw.Text = "Draws: " + sd;
         }
 
+        void StartGame ()
+        {
+            player = 2;
+            turns = 0;
+            A01.Text = A02.Text = A03.Text = A11.Text = A12.Text = A13.Text = A21.Text = A22.Text = A23.Text = "";
+        }
+
         private void TictactoeClick(object sender, EventArgs e)
         {
             Button button = (Button)sender;
@@ -53,6 +60,11 @@ namespace Tictactoe
         private void Exitbutton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Startbutton_Click(object sender, EventArgs e)
+        {
+            StartGame();
         }
     }
 }

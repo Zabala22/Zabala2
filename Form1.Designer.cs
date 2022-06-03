@@ -134,6 +134,7 @@
             this.Startbutton.TabIndex = 9;
             this.Startbutton.Text = "Start";
             this.Startbutton.UseVisualStyleBackColor = true;
+            this.Startbutton.Click += new System.EventHandler(this.Startbutton_Click);
             // 
             // Resetbutton
             // 
