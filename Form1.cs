@@ -15,23 +15,28 @@ namespace Tictactoe
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            PlayerX.Text = "X: " + s1;
+            PlayerO.Text = "O: " + s2;
+            Draw.Text = "Draws: " + sd;
         }
 
         private void TictactoeClick(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            if (player%2==0)
+            if (button.Text == "")
             {
-                button.Text = "X";
-                player++;
-                turns++;
-            }
-            else
-            {
-                button.Text = "O";
-                player++;
-                turns++;
+                if (player % 2 == 0)
+                {
+                    button.Text = "X";
+                    player++;
+                    turns++;
+                }
+                else
+                {
+                    button.Text = "O";
+                    player++;
+                    turns++;
+                }
             }
         }
 
@@ -43,6 +48,11 @@ namespace Tictactoe
         private void PlayerO_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Exitbutton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

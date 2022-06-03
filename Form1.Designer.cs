@@ -152,6 +152,7 @@
             this.Exitbutton.TabIndex = 11;
             this.Exitbutton.Text = "Exit";
             this.Exitbutton.UseVisualStyleBackColor = true;
+            this.Exitbutton.Click += new System.EventHandler(this.Exitbutton_Click);
             // 
             // PlayerX
             // 
