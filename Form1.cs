@@ -43,6 +43,13 @@ namespace Tictactoe
                     button.Text = "O";
                     player++;
                     turns++;
+
+                }
+                if (CheckDraw()==true)
+                {
+                    MessageBox.Show("Draw!");
+                    sd++;
+                    StartGame();
                 }
             }
         }
@@ -65,6 +72,41 @@ namespace Tictactoe
         private void Startbutton_Click(object sender, EventArgs e)
         {
             StartGame();
+        }
+
+        bool CheckDraw()
+        {
+            if (turns==9)
+                return true;
+            else
+                return false;
+        }
+
+        bool CheckWinner()
+        {
+            //horizontal
+            if ((A01.Text == A02.Text) && (A02.Text == A03.Text) && A01.Text != "")
+                return true;
+            else if ((A11.Text == A12.Text) && (A12.Text == A13.Text) && A11.Text != "")
+                return true;
+            else if ((A21.Text == A22.Text) && (A22.Text == A23.Text) && A21.Text != "")
+                return true;
+
+            //vertical
+            if ((A01.Text == A11.Text) && (A11.Text == A21.Text) && A01.Text != "")
+                return true;
+            else if ((A02.Text == A12.Text) && (A12.Text == A22.Text) && A02.Text != "")
+                return true;
+            else if ((A03.Text == A13.Text) && (A13.Text == A23.Text) && A03.Text != "")
+                return true;
+
+            //diagonal
+            if ((A01.Text == A12.Text) && (A12.Text == A23.Text) && A01.Text != "")
+                return true;
+            else if ((A03.Text == A12.Text) && (A12.Text == A23.Text) && A03.Text != "")
+                return true;
+            else
+                return true;
         }
     }
 }
