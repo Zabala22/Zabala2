@@ -47,6 +47,7 @@
             // 
             // A01
             // 
+            this.A01.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A01.Location = new System.Drawing.Point(13, 15);
             this.A01.Name = "A01";
             this.A01.Size = new System.Drawing.Size(116, 112);
@@ -56,6 +57,7 @@
             // 
             // A11
             // 
+            this.A11.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A11.Location = new System.Drawing.Point(13, 133);
             this.A11.Name = "A11";
             this.A11.Size = new System.Drawing.Size(116, 112);
@@ -65,6 +67,7 @@
             // 
             // A21
             // 
+            this.A21.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A21.Location = new System.Drawing.Point(13, 251);
             this.A21.Name = "A21";
             this.A21.Size = new System.Drawing.Size(116, 112);
@@ -74,6 +77,7 @@
             // 
             // A02
             // 
+            this.A02.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A02.Location = new System.Drawing.Point(135, 15);
             this.A02.Name = "A02";
             this.A02.Size = new System.Drawing.Size(116, 112);
@@ -83,6 +87,7 @@
             // 
             // A12
             // 
+            this.A12.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A12.Location = new System.Drawing.Point(135, 133);
             this.A12.Name = "A12";
             this.A12.Size = new System.Drawing.Size(116, 112);
@@ -92,6 +97,7 @@
             // 
             // A22
             // 
+            this.A22.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A22.Location = new System.Drawing.Point(135, 251);
             this.A22.Name = "A22";
             this.A22.Size = new System.Drawing.Size(116, 112);
@@ -101,6 +107,7 @@
             // 
             // A03
             // 
+            this.A03.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A03.Location = new System.Drawing.Point(257, 15);
             this.A03.Name = "A03";
             this.A03.Size = new System.Drawing.Size(116, 112);
@@ -110,6 +117,7 @@
             // 
             // A13
             // 
+            this.A13.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A13.Location = new System.Drawing.Point(257, 133);
             this.A13.Name = "A13";
             this.A13.Size = new System.Drawing.Size(116, 112);
@@ -119,6 +127,7 @@
             // 
             // A23
             // 
+            this.A23.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.A23.Location = new System.Drawing.Point(257, 251);
             this.A23.Name = "A23";
             this.A23.Size = new System.Drawing.Size(116, 112);
@@ -189,7 +198,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 478);
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ClientSize = new System.Drawing.Size(386, 486);
             this.Controls.Add(this.Draw);
             this.Controls.Add(this.PlayerO);
             this.Controls.Add(this.PlayerX);
@@ -205,6 +215,8 @@
             this.Controls.Add(this.A21);
             this.Controls.Add(this.A11);
             this.Controls.Add(this.A01);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Tictactoe";
             this.Text = "TicTacToe";
             this.Load += new System.EventHandler(this.Form1_Load);
