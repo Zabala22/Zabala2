@@ -1,0 +1,17 @@
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.csproj.AssemblyReference.cache
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.Tictactoe.resources
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.csproj.GenerateResource.cache
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.AssemblyInfoInputs.cache
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.AssemblyInfo.cs
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.csproj.CoreCompileInputs.cache
+C:\Users\Adie\source\repos\Tictactoe\bin\Debug\net6.0-windows\Tictactoe.exe
+C:\Users\Adie\source\repos\Tictactoe\bin\Debug\net6.0-windows\Tictactoe.deps.json
+C:\Users\Adie\source\repos\Tictactoe\bin\Debug\net6.0-windows\Tictactoe.runtimeconfig.json
+C:\Users\Adie\source\repos\Tictactoe\bin\Debug\net6.0-windows\Tictactoe.dll
+C:\Users\Adie\source\repos\Tictactoe\bin\Debug\net6.0-windows\Tictactoe.pdb
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.dll
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\refint\Tictactoe.dll
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.pdb
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\Tictactoe.genruntimeconfig.cache
+C:\Users\Adie\source\repos\Tictactoe\obj\Debug\net6.0-windows\ref\Tictactoe.dll

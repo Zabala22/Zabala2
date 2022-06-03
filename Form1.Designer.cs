@@ -28,137 +28,145 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.A = new System.Windows.Forms.Button();
-            this.D = new System.Windows.Forms.Button();
-            this.G = new System.Windows.Forms.Button();
-            this.B = new System.Windows.Forms.Button();
-            this.E = new System.Windows.Forms.Button();
-            this.H = new System.Windows.Forms.Button();
-            this.C = new System.Windows.Forms.Button();
-            this.F = new System.Windows.Forms.Button();
-            this.I = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.A01 = new System.Windows.Forms.Button();
+            this.A11 = new System.Windows.Forms.Button();
+            this.A21 = new System.Windows.Forms.Button();
+            this.A02 = new System.Windows.Forms.Button();
+            this.A12 = new System.Windows.Forms.Button();
+            this.A22 = new System.Windows.Forms.Button();
+            this.A03 = new System.Windows.Forms.Button();
+            this.A13 = new System.Windows.Forms.Button();
+            this.A23 = new System.Windows.Forms.Button();
+            this.Startbutton = new System.Windows.Forms.Button();
+            this.Resetbutton = new System.Windows.Forms.Button();
+            this.Exitbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // A
+            // A01
             // 
-            this.A.Location = new System.Drawing.Point(13, 15);
-            this.A.Name = "A";
-            this.A.Size = new System.Drawing.Size(116, 112);
-            this.A.TabIndex = 0;
-            this.A.UseVisualStyleBackColor = true;
-            this.A.Click += new System.EventHandler(this.TictactoeClick);
+            this.A01.Location = new System.Drawing.Point(13, 15);
+            this.A01.Name = "A01";
+            this.A01.Size = new System.Drawing.Size(116, 112);
+            this.A01.TabIndex = 0;
+            this.A01.UseVisualStyleBackColor = true;
+            this.A01.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // D
+            // A11
             // 
-            this.D.Location = new System.Drawing.Point(13, 133);
-            this.D.Name = "D";
-            this.D.Size = new System.Drawing.Size(116, 112);
-            this.D.TabIndex = 1;
-            this.D.UseVisualStyleBackColor = true;
+            this.A11.Location = new System.Drawing.Point(13, 133);
+            this.A11.Name = "A11";
+            this.A11.Size = new System.Drawing.Size(116, 112);
+            this.A11.TabIndex = 1;
+            this.A11.UseVisualStyleBackColor = true;
+            this.A11.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // G
+            // A21
             // 
-            this.G.Location = new System.Drawing.Point(13, 251);
-            this.G.Name = "G";
-            this.G.Size = new System.Drawing.Size(116, 112);
-            this.G.TabIndex = 2;
-            this.G.UseVisualStyleBackColor = true;
+            this.A21.Location = new System.Drawing.Point(13, 251);
+            this.A21.Name = "A21";
+            this.A21.Size = new System.Drawing.Size(116, 112);
+            this.A21.TabIndex = 2;
+            this.A21.UseVisualStyleBackColor = true;
+            this.A21.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // B
+            // A02
             // 
-            this.B.Location = new System.Drawing.Point(135, 15);
-            this.B.Name = "B";
-            this.B.Size = new System.Drawing.Size(116, 112);
-            this.B.TabIndex = 3;
-            this.B.UseVisualStyleBackColor = true;
+            this.A02.Location = new System.Drawing.Point(135, 15);
+            this.A02.Name = "A02";
+            this.A02.Size = new System.Drawing.Size(116, 112);
+            this.A02.TabIndex = 3;
+            this.A02.UseVisualStyleBackColor = true;
+            this.A02.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // E
+            // A12
             // 
-            this.E.Location = new System.Drawing.Point(135, 133);
-            this.E.Name = "E";
-            this.E.Size = new System.Drawing.Size(116, 112);
-            this.E.TabIndex = 4;
-            this.E.UseVisualStyleBackColor = true;
+            this.A12.Location = new System.Drawing.Point(135, 133);
+            this.A12.Name = "A12";
+            this.A12.Size = new System.Drawing.Size(116, 112);
+            this.A12.TabIndex = 4;
+            this.A12.UseVisualStyleBackColor = true;
+            this.A12.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // H
+            // A22
             // 
-            this.H.Location = new System.Drawing.Point(135, 251);
-            this.H.Name = "H";
-            this.H.Size = new System.Drawing.Size(116, 112);
-            this.H.TabIndex = 5;
-            this.H.UseVisualStyleBackColor = true;
+            this.A22.Location = new System.Drawing.Point(135, 251);
+            this.A22.Name = "A22";
+            this.A22.Size = new System.Drawing.Size(116, 112);
+            this.A22.TabIndex = 5;
+            this.A22.UseVisualStyleBackColor = true;
+            this.A22.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // C
+            // A03
             // 
-            this.C.Location = new System.Drawing.Point(257, 15);
-            this.C.Name = "C";
-            this.C.Size = new System.Drawing.Size(116, 112);
-            this.C.TabIndex = 6;
-            this.C.UseVisualStyleBackColor = true;
+            this.A03.Location = new System.Drawing.Point(257, 15);
+            this.A03.Name = "A03";
+            this.A03.Size = new System.Drawing.Size(116, 112);
+            this.A03.TabIndex = 6;
+            this.A03.UseVisualStyleBackColor = true;
+            this.A03.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // F
+            // A13
             // 
-            this.F.Location = new System.Drawing.Point(257, 133);
-            this.F.Name = "F";
-            this.F.Size = new System.Drawing.Size(116, 112);
-            this.F.TabIndex = 7;
-            this.F.UseVisualStyleBackColor = true;
+            this.A13.Location = new System.Drawing.Point(257, 133);
+            this.A13.Name = "A13";
+            this.A13.Size = new System.Drawing.Size(116, 112);
+            this.A13.TabIndex = 7;
+            this.A13.UseVisualStyleBackColor = true;
+            this.A13.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // I
+            // A23
             // 
-            this.I.Location = new System.Drawing.Point(257, 251);
-            this.I.Name = "I";
-            this.I.Size = new System.Drawing.Size(116, 112);
-            this.I.TabIndex = 8;
-            this.I.UseVisualStyleBackColor = true;
+            this.A23.Location = new System.Drawing.Point(257, 251);
+            this.A23.Name = "A23";
+            this.A23.Size = new System.Drawing.Size(116, 112);
+            this.A23.TabIndex = 8;
+            this.A23.UseVisualStyleBackColor = true;
+            this.A23.Click += new System.EventHandler(this.TictactoeClick);
             // 
-            // button1
+            // Startbutton
             // 
-            this.button1.Location = new System.Drawing.Point(13, 418);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 42);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Startbutton.Location = new System.Drawing.Point(13, 418);
+            this.Startbutton.Name = "Startbutton";
+            this.Startbutton.Size = new System.Drawing.Size(116, 42);
+            this.Startbutton.TabIndex = 9;
+            this.Startbutton.Text = "Start";
+            this.Startbutton.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Resetbutton
             // 
-            this.button2.Location = new System.Drawing.Point(135, 418);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 42);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Resetbutton.Location = new System.Drawing.Point(135, 418);
+            this.Resetbutton.Name = "Resetbutton";
+            this.Resetbutton.Size = new System.Drawing.Size(116, 42);
+            this.Resetbutton.TabIndex = 10;
+            this.Resetbutton.Text = "Reset";
+            this.Resetbutton.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Exitbutton
             // 
-            this.button3.Location = new System.Drawing.Point(257, 418);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 42);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Exit";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Exitbutton.Location = new System.Drawing.Point(257, 418);
+            this.Exitbutton.Name = "Exitbutton";
+            this.Exitbutton.Size = new System.Drawing.Size(116, 42);
+            this.Exitbutton.TabIndex = 11;
+            this.Exitbutton.Text = "Exit";
+            this.Exitbutton.UseVisualStyleBackColor = true;
             // 
             // Tictactoe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 484);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.I);
-            this.Controls.Add(this.F);
-            this.Controls.Add(this.C);
-            this.Controls.Add(this.H);
-            this.Controls.Add(this.E);
-            this.Controls.Add(this.B);
-            this.Controls.Add(this.G);
-            this.Controls.Add(this.D);
-            this.Controls.Add(this.A);
+            this.Controls.Add(this.Exitbutton);
+            this.Controls.Add(this.Resetbutton);
+            this.Controls.Add(this.Startbutton);
+            this.Controls.Add(this.A23);
+            this.Controls.Add(this.A13);
+            this.Controls.Add(this.A03);
+            this.Controls.Add(this.A22);
+            this.Controls.Add(this.A12);
+            this.Controls.Add(this.A02);
+            this.Controls.Add(this.A21);
+            this.Controls.Add(this.A11);
+            this.Controls.Add(this.A01);
             this.Name = "Tictactoe";
             this.Text = "TicTacToe";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -168,17 +176,17 @@
 
         #endregion
 
-        private Button A;
-        private Button D;
-        private Button G;
-        private Button B;
-        private Button E;
-        private Button H;
-        private Button C;
-        private Button F;
-        private Button I;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button A01;
+        private Button A11;
+        private Button A21;
+        private Button A02;
+        private Button A12;
+        private Button A22;
+        private Button A03;
+        private Button A13;
+        private Button A23;
+        private Button Startbutton;
+        private Button Resetbutton;
+        private Button Exitbutton;
     }
 }
