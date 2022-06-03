@@ -40,6 +40,9 @@
             this.Startbutton = new System.Windows.Forms.Button();
             this.Resetbutton = new System.Windows.Forms.Button();
             this.Exitbutton = new System.Windows.Forms.Button();
+            this.PlayerX = new System.Windows.Forms.Label();
+            this.PlayerO = new System.Windows.Forms.Label();
+            this.Draw = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // A01
@@ -125,7 +128,7 @@
             // 
             // Startbutton
             // 
-            this.Startbutton.Location = new System.Drawing.Point(13, 418);
+            this.Startbutton.Location = new System.Drawing.Point(13, 539);
             this.Startbutton.Name = "Startbutton";
             this.Startbutton.Size = new System.Drawing.Size(116, 42);
             this.Startbutton.TabIndex = 9;
@@ -134,7 +137,7 @@
             // 
             // Resetbutton
             // 
-            this.Resetbutton.Location = new System.Drawing.Point(135, 418);
+            this.Resetbutton.Location = new System.Drawing.Point(135, 539);
             this.Resetbutton.Name = "Resetbutton";
             this.Resetbutton.Size = new System.Drawing.Size(116, 42);
             this.Resetbutton.TabIndex = 10;
@@ -143,18 +146,50 @@
             // 
             // Exitbutton
             // 
-            this.Exitbutton.Location = new System.Drawing.Point(257, 418);
+            this.Exitbutton.Location = new System.Drawing.Point(257, 539);
             this.Exitbutton.Name = "Exitbutton";
             this.Exitbutton.Size = new System.Drawing.Size(116, 42);
             this.Exitbutton.TabIndex = 11;
             this.Exitbutton.Text = "Exit";
             this.Exitbutton.UseVisualStyleBackColor = true;
             // 
+            // PlayerX
+            // 
+            this.PlayerX.AutoSize = true;
+            this.PlayerX.Location = new System.Drawing.Point(13, 381);
+            this.PlayerX.Name = "PlayerX";
+            this.PlayerX.Size = new System.Drawing.Size(48, 15);
+            this.PlayerX.TabIndex = 12;
+            this.PlayerX.Text = "Player 1";
+            this.PlayerX.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // PlayerO
+            // 
+            this.PlayerO.AutoSize = true;
+            this.PlayerO.Location = new System.Drawing.Point(135, 381);
+            this.PlayerO.Name = "PlayerO";
+            this.PlayerO.Size = new System.Drawing.Size(48, 15);
+            this.PlayerO.TabIndex = 13;
+            this.PlayerO.Text = "Player 2";
+            this.PlayerO.Click += new System.EventHandler(this.PlayerO_Click);
+            // 
+            // Draw
+            // 
+            this.Draw.AutoSize = true;
+            this.Draw.Location = new System.Drawing.Point(257, 381);
+            this.Draw.Name = "Draw";
+            this.Draw.Size = new System.Drawing.Size(34, 15);
+            this.Draw.TabIndex = 14;
+            this.Draw.Text = "Draw";
+            // 
             // Tictactoe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(387, 484);
+            this.ClientSize = new System.Drawing.Size(384, 591);
+            this.Controls.Add(this.Draw);
+            this.Controls.Add(this.PlayerO);
+            this.Controls.Add(this.PlayerX);
             this.Controls.Add(this.Exitbutton);
             this.Controls.Add(this.Resetbutton);
             this.Controls.Add(this.Startbutton);
@@ -171,6 +206,7 @@
             this.Text = "TicTacToe";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -188,5 +224,8 @@
         private Button Startbutton;
         private Button Resetbutton;
         private Button Exitbutton;
+        private Label PlayerX;
+        private Label PlayerO;
+        private Label Draw;
     }
 }
