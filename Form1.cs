@@ -96,7 +96,7 @@ namespace Tictactoe
 
         bool CheckDraw()
         {
-            if (turns==9)
+            if ((turns==9)&&CheckWinner()==false)
                 return true;
             else
                 return false;
@@ -123,10 +123,16 @@ namespace Tictactoe
             //diagonal
             if ((A01.Text == A12.Text) && (A12.Text == A23.Text) && A01.Text != "")
                 return true;
-            else if ((A03.Text == A12.Text) && (A12.Text == A23.Text) && A03.Text != "")
+            else if ((A03.Text == A12.Text) && (A12.Text == A21.Text) && A03.Text != "")
                 return true;
             else
-                return true;
+                return false;
+        }
+
+        private void Resetbutton_Click(object sender, EventArgs e)
+        {
+            s1 = s2 = sd = 0;
+            StartGame();
         }
     }
 }

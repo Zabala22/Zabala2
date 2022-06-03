@@ -128,7 +128,7 @@
             // 
             // Startbutton
             // 
-            this.Startbutton.Location = new System.Drawing.Point(13, 539);
+            this.Startbutton.Location = new System.Drawing.Point(13, 422);
             this.Startbutton.Name = "Startbutton";
             this.Startbutton.Size = new System.Drawing.Size(116, 42);
             this.Startbutton.TabIndex = 9;
@@ -138,16 +138,17 @@
             // 
             // Resetbutton
             // 
-            this.Resetbutton.Location = new System.Drawing.Point(135, 539);
+            this.Resetbutton.Location = new System.Drawing.Point(135, 422);
             this.Resetbutton.Name = "Resetbutton";
             this.Resetbutton.Size = new System.Drawing.Size(116, 42);
             this.Resetbutton.TabIndex = 10;
             this.Resetbutton.Text = "Reset";
             this.Resetbutton.UseVisualStyleBackColor = true;
+            this.Resetbutton.Click += new System.EventHandler(this.Resetbutton_Click);
             // 
             // Exitbutton
             // 
-            this.Exitbutton.Location = new System.Drawing.Point(257, 539);
+            this.Exitbutton.Location = new System.Drawing.Point(257, 422);
             this.Exitbutton.Name = "Exitbutton";
             this.Exitbutton.Size = new System.Drawing.Size(116, 42);
             this.Exitbutton.TabIndex = 11;
@@ -160,9 +161,9 @@
             this.PlayerX.AutoSize = true;
             this.PlayerX.Location = new System.Drawing.Point(13, 381);
             this.PlayerX.Name = "PlayerX";
-            this.PlayerX.Size = new System.Drawing.Size(48, 15);
+            this.PlayerX.Size = new System.Drawing.Size(61, 15);
             this.PlayerX.TabIndex = 12;
-            this.PlayerX.Text = "Player 1";
+            this.PlayerX.Text = "Player 1: X";
             this.PlayerX.Click += new System.EventHandler(this.label1_Click);
             // 
             // PlayerO
@@ -170,9 +171,9 @@
             this.PlayerO.AutoSize = true;
             this.PlayerO.Location = new System.Drawing.Point(135, 381);
             this.PlayerO.Name = "PlayerO";
-            this.PlayerO.Size = new System.Drawing.Size(48, 15);
+            this.PlayerO.Size = new System.Drawing.Size(63, 15);
             this.PlayerO.TabIndex = 13;
-            this.PlayerO.Text = "Player 2";
+            this.PlayerO.Text = "Player 2: O";
             this.PlayerO.Click += new System.EventHandler(this.PlayerO_Click);
             // 
             // Draw
@@ -188,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 591);
+            this.ClientSize = new System.Drawing.Size(384, 478);
             this.Controls.Add(this.Draw);
             this.Controls.Add(this.PlayerO);
             this.Controls.Add(this.PlayerX);
